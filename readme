@@ -1,32 +1,24 @@
-# 🧠 MediDiagnose AI - Advanced Medical Diagnostic Platform
+#🧠 MediDiagnose AI - Advanced Medical Diagnostic Platform
 
 **MediDiagnose AI** is an advanced medical diagnostic platform that leverages artificial intelligence to analyze patient reports and provide comprehensive health assessments. The platform employs specialized AI agents simulating **cardiologists**, **psychologists**, and **pulmonologists** to deliver expert analysis, culminating in a **multidisciplinary team diagnosis**.
+<img width="1919" height="862" alt="Image" src="https://github.com/user-attachments/assets/a9321d27-71a1-4b4a-856d-c08cac3d7b41" />
 
----
+<img width="1914" height="927" alt="Image" src="https://github.com/user-attachments/assets/7f888dc8-a2fd-4190-a3c0-e2f388601f70" />
 
-## 🚀 Key Features
+<img width="1919" height="968" alt="Image" src="https://github.com/user-attachments/assets/3df88772-24a1-48a2-bef0-1b899600d48a" />
 
-- **🧠 AI-Powered Specialist Analysis**  
-  Three specialized AI agents provide expert insights
+<img width="1908" height="959" alt="Image" src="https://github.com/user-attachments/assets/1072b4c7-6eed-4724-9d38-7d1a42b762bc" />
 
-- **🔬 Multidisciplinary Diagnosis**  
-  Integrated team analysis identifies key health issues
+##🚀 Key Features
 
-- **📄 Comprehensive Reporting**  
-  Detailed specialist reports with actionable recommendations
+- **🧠 AI-Powered Specialist Analysis** - Three specialized AI agents provide expert insights
+- **🔬 Multidisciplinary Diagnosis** - Integrated team analysis identifies key health issues
+- **📄 Comprehensive Reporting** - Detailed specialist reports with actionable recommendations
+- **📥 PDF & Text Processing** - Automatically extracts and analyzes medical reports
+- **💻 Professional UI** - Clean, intuitive interface designed for healthcare professionals
+- **📤 Export Capabilities** - Download full diagnostic reports in text format
 
-- **📥 PDF & Text Processing**  
-  Automatically extracts and analyzes medical reports
-
-- **💻 Professional UI**  
-  Clean, intuitive interface designed for healthcare professionals
-
-- **📤 Export Capabilities**  
-  Download full diagnostic reports in text format
-
----
-
-## 🛠️ Technology Stack
+##🛠️ Technology Stack
 
 | Component           | Purpose                          |
 |---------------------|----------------------------------|
@@ -35,9 +27,7 @@
 | PyMuPDF (fitz)      | PDF text extraction              |
 | Python              | Backend programming language     |
 
----
-
-## 🧪 Installation
+##🧪 Installation
 
 ### 1. Clone the repository
 
@@ -78,8 +68,6 @@ GEMINI_API_KEY = "your_gemini_api_key_here"
 streamlit run app.py
 ```
 
----
-
 ## ☁️ Deployment
 
 ### ✅ Option 1: Streamlit Sharing (Recommended)
@@ -110,17 +98,13 @@ Then open: http://localhost:8501
    ```
 3. For production, configure Nginx or any reverse proxy
 
----
-
 ## ⚙️ Configuration
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `GEMINI_API_KEY` | Google Gemini API key | Required |
-| `ANALYSIS_TIMEOUT` | Timeout for AI analysis (seconds) | 300 |
-| `MAX_FILE_SIZE` | Maximum upload file size | 10MB |
-
----
+| Variable          | Description                        | Default  |
+|-------------------|------------------------------------|----------|
+| GEMINI_API_KEY    | Google Gemini API key             | Required |
+| ANALYSIS_TIMEOUT  | Timeout for AI analysis (seconds) | 300      |
+| MAX_FILE_SIZE     | Maximum upload file size          | 10MB     |
 
 ## 📋 Usage
 
@@ -132,8 +116,6 @@ Then open: http://localhost:8501
    - Pulmonologist AI Report
 4. Review the final multidisciplinary diagnosis
 5. Download the full report for patient records
-
----
 
 ## 🤝 Contributing
 
@@ -153,20 +135,16 @@ git push origin feature/your-feature
 # Open a Pull Request
 ```
 
----
-
 ## 📄 License
 
 MediDiagnose AI is released under the MIT License.
 
----
-
 ## ⚠️ Disclaimer
 
-- This application is for **educational and research purposes only**.
-- It does **not** provide medical advice, diagnosis, or treatment.
-- Always consult with qualified healthcare professionals for any medical concerns.
+- This application is for **educational and research purposes only**
+- It does **not** provide medical advice, diagnosis, or treatment
+- Always consult with qualified healthcare professionals for any medical concerns
 
 ---
 
-**MediDiagnose AI** — *Revolutionizing medical diagnostics through AI-powered analysis.*
+**MediDiagnose AI** — Revolutionizing medical diagnostics through AI-powered analysis.
